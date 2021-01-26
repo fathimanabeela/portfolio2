@@ -1,0 +1,48 @@
+h1 {
+    color: brown;
+    padding-left:20px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: bisque;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+h2,p{
+    text-align: center;
+}
+
+.menu{
+    padding-right:30px;
+    margin-top:20px;
+}
+
+.menu a{
+    margin-left :10px
+
+}
+
+body{
+    background-color: rgb(241, 161, 132);
+}
+
+a:link{
+    color: black;
+}
+a:visited{
+    color:black
+}
